@@ -9,7 +9,7 @@ export default function Header(){
                     <img src="/logo.png" className={styles.logo} />
                 </div>
                 <div className={styles.Link}>
-                    <ul>
+                    <ul className={styles.liens}>
                         <li><Link href="https://dolphprint.com/index.html">Accueil</Link></li>
                         <li><Link href="/">Produit +</Link></li>
                         <li><Link href="https://dolphprint.com/tarifs.html">Tarifs</Link></li>

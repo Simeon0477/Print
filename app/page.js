@@ -1,6 +1,7 @@
 import Header from "../components/Header"
 import Footer from "../components/Footer"
 import styles from "./page.module.css"
+import useState from "react"
 
 export default function Home() {
 
@@ -10,8 +11,13 @@ export default function Home() {
       <div className={styles.main}>
         <div className={styles.printDiv}>
           <h1>Envoyez vos photos et images</h1>
+          <br/>
           <form>
-            <input type="file" accept="images/*" className={styles.file} />
+            <label className={styles.file}>
+              Choisissez vos fichiers
+              <input type="file" accept="images/*" className={styles.file_hidden} />
+            </label>
+            <br/>
             <br/>
             <button className={styles.submit}>Valider</button>
           </form>

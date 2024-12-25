@@ -37,6 +37,10 @@
   transition: .5s;
 }
 
+.file_hidden{
+  display: none;
+}
+
 .file:hover{
   cursor: pointer;
   transition: .3s;

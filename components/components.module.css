@@ -35,7 +35,7 @@
 
 .liens li:hover{
     color: #FF3737;
-    transition: .1s;
+    transition: .3s;
 }
 
 .connect{
@@ -109,6 +109,18 @@
     height: 45vh;
 }
 
+.networks{
+    padding: 15px 0;
+    font-weight: 600;
+}
+
+.networks span {
+    display: inline-block;
+    width: 1.8px;
+    height: 15px;
+    margin: 0 30px;
+    background-color: rgb(185, 183, 183);
+}
 
 .band{
     width: 100%;

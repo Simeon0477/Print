@@ -34,7 +34,10 @@ export default function Footer() {
                     <form>
                         <input className={styles.input} type="text" placeholder="Enter your mail address"/>
                         <input className={styles.subscribe} type="submit" value="Subscribe Now" />
-                    </form>          
+                    </form>    
+                    <p className={styles.networks}>
+                        Facebook <span></span> twitter <span></span> Instagram <span></span> YouTube <span></span> LinkedIn
+                    </p>    
                 </div>
             </div>
             <div className={styles.band}>

@@ -42,7 +42,7 @@ export default function Footer() {
             </div>
             <div className={styles.band}>
                 <img src="/white-logo.png" className={styles.logo}/>
-                <img src="/pament-method.png" className={styles.paiment}/>
+                <img src="/pament-method.png" className={styles.paiement}/>
                 <p>
                     &copy; 2023 Dolphprint. Tout droit reservé.
                 </p>

@@ -1,0 +1,149 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+.main {
+  width: 100%;
+  padding-top: 240px;
+  padding-bottom: 150px;
+  background-color: #FFEDE9;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 15px;
+}
+
+.printDiv{
+  width: 800px;
+  padding: 50px 20px;
+  text-align: center;
+  background-color: white;
+  border-radius: 20px;
+  box-shadow: 0px 1px 2px 0px rgb(146, 146, 146);
+}
+
+.printDiv h1{
+  margin: 20px;
+}
+
+.file{
+  font-family: poppins;
+  font-size: 15px;
+  margin: 10px;
+  padding: 15px 25px;
+  background-color: white;
+  color: black;
+  border: 2px solid #FF3737;
+  font-weight: 600;
+  border-radius: 10px;
+  transition: .5s;
+}
+
+.file_hidden{
+  display: none;
+}
+
+.file:hover{
+  cursor: pointer;
+  transition: .3s;
+  background-color: #FF3737;
+  color: white;
+  border: 2px solid #FF3737;
+}
+
+.submit{
+  font-family: poppins;
+  font-size: 15px;
+  margin: 10px;
+  padding: 15px 35px;
+  background-color: #FF3737;
+  color: white;
+  font-weight: 600;
+  border-radius: 10px;
+  border: 2px solid #FF3737;
+  transition: .3s;
+}
+
+.submit:hover{
+  cursor: pointer;
+  background-color: white;
+  color: black;
+  border: 2px solid #FF3737;
+  transition: .5s;
+}
+
+@media (max-width: 1024px) {
+  .main {
+    padding-top: 240px;
+    padding-bottom: 150px;
+    font-size: 15px;
+  }
+
+  .printDiv{
+    width: 600px;
+    padding: 30px 20px;
+  }
+
+  .printDiv h1{
+    font-size: 20px;
+  }
+
+  .file{
+    font-size: 15px;
+  }
+
+  .submit{
+    font-size: 15px;
+  }
+}
+
+@media (max-width: 768px) {
+  .main {
+    padding-top: 240px;
+    padding-bottom: 150px;
+    font-size: 14px;
+  }
+
+  .printDiv{
+    width: 400px;
+    padding: 30px 20px;
+  }
+
+  .printDiv h1{
+    font-size: 18px;
+  }
+
+  .file{
+    font-size: 15px;
+  }
+
+  .submit{
+    font-size: 15px;
+  }
+}
+
+@media (max-width: 480px) {
+  .main {
+    padding-top: 250px;
+    padding-bottom: 220px;
+    font-size: 13px;
+  }
+
+  .printDiv{
+    width: 300px;
+    padding: 20px;
+    border-radius: 15px;
+  }
+
+  .printDiv h1{
+    font-size: 16px;
+  }
+
+  .file{
+    font-size: 14px;
+    font-weight: 500;
+  }
+
+  .submit{
+    font-size: 14px;
+    font-weight: 500;
+  }
+}

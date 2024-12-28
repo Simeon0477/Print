@@ -230,6 +230,10 @@
 }
   
 @media (max-width: 480px) {
+    .Link {
+        display: none;
+    }
+
     .footer{
         padding: 50px 25px;
         justify-content: flex-start;

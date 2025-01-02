@@ -2,9 +2,7 @@
 import Header from "../components/Header"
 import Footer from "../components/Footer"
 import styles from "./page.module.css"
-import {useState} from "react"
 import { useRouter } from 'next/navigation';
-import axios from 'axios';
 
 export default function Home() {
   const router = useRouter();
@@ -38,15 +36,15 @@ export default function Home() {
             <div className={styles.offres}>
               <h2 className={styles.label}>Agrandissement photo sur du bois</h2>
               <div className={styles.tarifs}>
-              <div className={styles.price}>
-                <p>
-                  10 * 30/24 * 30 cm
-                </p>
-                <p className={styles.prix}>
-                  5 000 FCFA
-                </p>
-                <button className={styles.submit} onClick={() => handleButtonClick(10)}>Valider</button>
-              </div>
+                <div className={styles.price}>
+                  <p>
+                    10 * 30/24 * 30 cm
+                  </p>
+                  <p className={styles.prix}>
+                    5 000 FCFA
+                  </p>
+                  <button className={styles.submit} onClick={() => handleButtonClick(10)}>Valider</button>
+                </div>
                 <div className={styles.price}>
                   <p>
                     30 * 40/35 * 40 cm

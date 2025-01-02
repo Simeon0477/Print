@@ -1,8 +1,10 @@
-import Header from "../../components/Header"
-import Footer from "../../components/Footer"
+"use client";
+import Header from "../components/Header"
+import Footer from "../components/Footer"
 import styles from "./form.module.css"
 import {useState} from "react"
 import axios from 'axios';
+import { useRouter } from 'next/navigation';
 
 export default function Form() {
   const [file, setFile] = useState(null);

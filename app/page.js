@@ -11,7 +11,7 @@ export default function Home() {
 
     const handleButtonClick = (number) => {
         // Naviguer vers la page de destination avec le nombre de photos
-        router.push('./pages/form');
+        router.push('./form');
     };
 
   return (
